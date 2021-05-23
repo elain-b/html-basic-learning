@@ -1,0 +1,10 @@
+@charset "UTF-8";
+h1 { font-size: 130%; color: #339; font-family: "MS Pゴシック", osaka, sans-serif; }
+
+h2 { font-size: 100%; font-family: "MS Pゴシック", osaka, sans-serif; }
+
+p { font-size: 80%; font-family: "MS Pゴシック", osaka, sans-serif; }
+
+div  { font-size: 80%; color: #666; font-family: "MS Pゴシック", osaka, sans-serif; }
+
+blockquote { font-size: 80%; font-style: normal; font-family: "MS Pゴシック", osaka, sans-serif; font-weight: bold; }

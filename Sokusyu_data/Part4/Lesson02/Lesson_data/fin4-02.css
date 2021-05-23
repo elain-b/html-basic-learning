@@ -1,0 +1,93 @@
+﻿@charset "UTF-8";
+/* bodyに関するCSS
+--------------------------------------------------------------------------------*/
+body {
+	font-size: 80%;
+	line-height: 160%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #CCCCCC;
+}
+
+/* ページ構造に関するCSS 
+--------------------------------------------------------------------------------*/
+#wrapper {
+  width: 780px;
+  background-color: #FFFFFF;
+  }
+#header{
+  padding: 12px 0px;
+}
+#content{
+  clear: left;
+  margin: 0px 20px;
+  padding: 0px;
+}
+#nav {
+  margin-top: 0px;
+  margin-left: 20px;
+  padding: 0px;
+  list-style: none;
+  float: left;
+  width: 740px;
+  background: url(img/bg_nav.gif);
+}
+#footer{
+  clear: both;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-top: 1px solid #CCCCCC;
+}
+
+/* ヘッダーに関するCSS 
+--------------------------------------------------------------------------------*/
+h1{
+	font-size: 160%;
+	margin: 20px 0px;
+	padding: 0px;
+}
+
+/* ナビゲーションに関するCSS 
+--------------------------------------------------------------------------------*/
+#nav li {
+  float: left;
+  width: 118px;
+  height: 20px;
+  border: 1px solid #000;
+  margin-right: 5px;
+  margin-left: 0px;
+  font-size: 13px;
+  text-align: center;
+  background-color: #F0F0F0;
+}
+#nav a {
+  display: block;
+  width: 118px;
+  height: 20px;
+  color: #000;
+  text-decoration: none;
+}
+#nav a:hover {
+  color: #FFF;
+  background-color: #936;
+}
+
+/* コンテンツに関するCSS 
+--------------------------------------------------------------------------------*/
+h2 {
+  font-size: 140%;
+  padding: 5px 0 5px 5px;
+  border-top: solid 1px #CCCCCC;
+  border-bottom: solid 1px #CCCCCC;
+}
+#col1 {
+  width: 350px;
+  float: left;
+}
+
+#col2 {
+  width: 350px;
+  float: right;
+}
+

@@ -1,0 +1,30 @@
+﻿@charset "UTF-8";
+body {
+	font-family: "ＭＳ Ｐゴシック", "Osaka", sans-serif;
+	width: 600px;
+	font-size: 80%;
+	line-height: 150%;
+}
+
+h1 {
+	font-size: 150%;
+	color: #339;
+}
+
+h2 {
+	font-size: 120%;
+}
+
+p {
+
+}
+
+div  {
+	color: #666;
+}
+
+blockquote {
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+}

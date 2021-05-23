@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+	font-family: "ＭＳ Ｐゴシック", "Osaka", sans-serif;
+	font-size: 80%;
+	width: 700px;
+	line-height: 150%;
+}
+
+h1 {
+	font-size: 150%;	
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 130%;
+}
+
+h3 {
+	font-size: 110%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	padding-bottom: 3px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999;
+	padding-top: 5px;
+	text-indent: 5px;
+}
+
+div  {
+	width: 680px;
+	border: solid 1px #999;
+	background-color: #FAFAFA;
+	padding: 1px 1px 1px 11px;
+}
+
+blockquote {
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+span {
+	font-weight: bold;
+}

@@ -1,0 +1,141 @@
+﻿@charset "UTF-8";
+/* bodyに関するCSS 
+--------------------------------------------------------------------------------*/
+body {
+	font-size: 80%;
+	line-height: 180%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* ページ構造に関するCSS 
+--------------------------------------------------------------------------------*/
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width:720px;
+	background-color: #FFF;
+}
+
+#header {
+	padding-top: 18px;
+	margin-bottom: 10px;
+	margin-left: 18px;
+}
+
+#content {
+	margin:15px 20px 0px;
+}
+
+#footer {
+	padding-bottom:15px;
+	clear: both;
+	border-top: 1px solid #000;
+	text-align: center;
+}
+
+
+/* ヘッダーに関するCSS 
+--------------------------------------------------------------------------------*/
+h1 {
+	margin:0px;
+}
+
+
+/* ナビゲーションに関するCSS 
+--------------------------------------------------------------------------------*/
+#nav {
+	display: none;
+	background-image: url(img/dot_line_long.gif);
+	height: 27px;
+	margin: 0px;
+	padding-left: 20px;
+	list-style: none;
+}
+
+#nav li {
+	margin-top: 6px;
+	margin-bottom: 5px;
+	margin-right: 20px;
+	float:left;
+}
+
+
+/* コンテンツに関するCSS
+--------------------------------------------------------------------------------*/
+h2 {
+	margin:0px;
+}
+
+h3{
+	font-size: 100%;
+	margin: 0px;
+}
+
+.text {
+	background-color: #FFF;
+	margin:20px 0px;
+	padding-right: 20px;
+	float: left;
+}
+
+p{
+	margin:0px;
+}
+
+#content p img {
+	margin-left:10px;
+	float: right;
+}
+
+hr{
+ width: 100%;
+	height: 1px;
+}
+
+/* バックナンバーに関するCSS 
+--------------------------------------------------------------------------------*/
+#backNumber {
+	display: none;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-left: 0px;
+	width: 120px;
+	float: left;
+}
+#backNumberMenu {
+	margin: 5px 0px;
+	padding: 0px;
+}
+#backNumberMenu li {
+	margin-top:1px;
+	list-style: none;
+	padding: 0px 0px 0px 12px;
+	background: url(img/bullet.gif) no-repeat left center;
+}
+
+
+/* リンクに関するCSS 
+--------------------------------------------------------------------------------*/
+a:link {
+	color:#00F;
+	text-decoration:none;
+	border-bottom:1px solid #00F;
+}
+a:visited {
+	color:#936;
+	text-decoration:none;
+	border-bottom:1px solid #936;
+}
+a:hover, a:active {
+	text-decoration:none;
+	color:#936;
+	border-bottom:1px solid #936;
+} 
+#nav img {
+	border-style: none;
+}
+#nav a{
+	border-style: none;
+}

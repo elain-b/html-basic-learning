@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* ボディに関するCSS 
+--------------------------------------------------------------------------------*/
+body {
+	font-size: 80%;
+	line-height: 160%;
+	background-image: url(img/bck.gif);
+	background-repeat: repeat-y;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ページ構造に関するCSS 
+--------------------------------------------------------------------------------*/
+#container { width: 778px; }
+#header  { border-bottom: 1px solid #ccc; }
+#content { width: 520px; margin:25px; float: left; }
+#nav { width: 180px; margin-top:25px; float: right; }
+#footer { border-top: 1px solid #ccc; clear: both; }
+/* ヘッダーに関するCSS  
+--------------------------------------------------------------------------------*/
+#logo { margin: 15px; }
+
+/* コンテンツに関するCSS 
+--------------------------------------------------------------------------------*/
+h1 {
+	font-size: 140%;
+	margin: 15px 0px;
+}
+#content h2 {
+	font-size: 100%;
+	margin: 20px 0px 0px;
+	height: 24px;
+	padding: 3px 0px 3px 4px;
+	background-image: url(img/sttl_bar.gif);
+}
+.article { margin: 0px; }
+#leadImage { float: right; }
+
+/* ナビゲーションに関するCSS 
+--------------------------------------------------------------------------------*/
+#nav h2, #nav ul { margin:0px; padding:0px; }
+#nav li { list-style: none; background: url(img/dot_line.gif) no-repeat left bottom; padding: 4px 0px; }
+/* フッターに関するCSS 
+--------------------------------------------------------------------------------*/
+#credit { width: 760px; text-align: right; margin: 10px 0px; }
+/* リンクに関するCSS  
+--------------------------------------------------------------------------------*/
+a:link { color: #0000FF; }
+a:visited { color: #993366; }
+a:active, a:hover { color: #993366; background-color: #EFD1E0; }
+#content p a {background-color: transparent; }

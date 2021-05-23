@@ -1,0 +1,81 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>TOKYO CRIMSON</title>
+<link rel="stylesheet" href="fin5-02.css" type="text/css" media="screen">
+</head>
+<body>
+<div id="wrapper">
+<!--ヘッダー -->
+<div id="header">
+<h1><img src="img/logo.gif" alt="TOKYO CRIMSON" width="238" height="14" id="logo"></h1>
+<!--ナビゲーション -->
+<ul id="nav">
+<li><a href="a"><img src="img/btn01.gif" alt="service" width="67" height="15"></a></li>
+<li><a href="a"><img src="img/btn02.gif" alt="concept" width="70" height="15"></a></li>
+<li><a href="a"><img src="img/btn03.gif" alt="rate" width="45" height="15"></a></li>
+<li><a href="a"><img src="img/btn04.gif" alt="reservation" width="100" height="15"></a></li>
+</ul>
+<!--ナビゲーション -->
+<div><img src="img/head.jpg" alt="img" width="718" height="55" id="cut"></div>
+</div>
+<!--ヘッダー -->
+
+<!--コンテンツ -->
+<div id="content">
+<h2><img src="img/ttl_reservation.gif" alt="reservation" width="161" height="17"></h2>
+<form action="questionnaire.cgi" method="post">
+<fieldset>
+<legend>代表者様のお名前とご連絡先</legend>
+<div><label for="name">お名前</label>：<input id="name" name="name" type="text" size="50"></div>
+<div><label for="e-mail">メールアドレス</label>：<input id="e-mail" name="e-mail" type="text" size="50"></div>
+</fieldset>
+<fieldset>
+<legend>お部屋と人数の指定</legend>
+<div>
+<label for="room_name">予約したい部屋名</label>：
+<select id="room_name" name="room_name">
+<option selected>部屋を選んでください</option>
+<option>赤い部屋　乱歩の書斎</option>
+<option>黄色い部屋　治の書斎</option>
+<option>緑の部屋　由紀夫の書斎</option>
+</select>
+</div>
+<div>ご予約人数：
+<input type="radio" name="number" id="n1" value="1"><label for="n1">1人</label>
+<input type="radio" name="number" id="n2" value="2"><label for="n2">2人</label>
+<input type="radio" name="number" id="n3" value="3"><label for="n3">3人</label>
+<input type="radio" name="number" id="n4" value="4"><label for="n4">4人</label>
+<input type="radio" name="number" id="n5" value="5"><label for="n5">5人</label>
+<input type="radio" name="number" id="n6" value="6over"><label for="n6">6人以上</label>
+</div>
+<div>
+<label for="comment">ご要望</label>：<br>
+<textarea name="comment" id="comment" cols="55" rows="10"></textarea>
+</div>
+</fieldset>
+<fieldset>
+<legend>アンケート</legend>
+<div>
+当店を知った経緯（複数選択可）：<br>
+<input type="checkbox" name="route" id="r1" value="search"><label for="r1">検索エンジン</label>
+<input type="checkbox" name="route" id="r2" value="cm"><label for="r2">テレビCM</label>
+<input type="checkbox" name="route" id="r3" value="magazine"><label for="r3">雑誌</label>
+<input type="checkbox" name="route" id="r4" value="flyer"><label for="r4">チラシ</label>
+<input type="checkbox" name="route" id="r5" value="friends"><label for="r5">友人から聞いた</label>
+</div>
+</fieldset>
+<div id="submit-p"><input type="submit" name="submit" id="submit" value="予約する"></div>
+</form>
+</div>
+<!--コンテンツ -->
+
+<!--フッター -->
+<div id="footer">
+<p id="credit">Copyright &copy; 2008 Akinori Kurihara All Rights Reserved.</p>
+</div>
+<!--ヘッダー -->
+</div>
+</body>
+</html>

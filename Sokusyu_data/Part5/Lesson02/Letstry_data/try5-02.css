@@ -1,0 +1,145 @@
+﻿@charset "UTF-8";
+
+/* ボディに関するCSS
+--------------------------------------------------------------------------------*/
+	body {
+	font-family: "ＭＳ Ｐゴシック", "Osaka", sans-serif;
+	color: #666;
+	font-size: 80%;
+	line-height: 160%;
+}
+
+/* ページ構造に関するCSS 
+--------------------------------------------------------------------------------*/
+#header {
+	width: 700px;
+	margin-bottom: 10px;
+}
+
+#nav {
+	line-height: 170%;
+	margin:5px 0px;
+	padding:0px;
+	list-style:none;	
+	float:left;	
+}
+
+#content {
+	clear:left;
+	width: 658px;
+	border: 1px solid #999;
+	background-color: #FFF;
+	padding: 20px;
+	margin-top: 5px;
+}
+
+#col1 {
+	width:423px;
+ margin-right: 15px;
+	float:left;	
+}
+
+#sidebar {
+	width: 190px;
+	padding: 7px 15px 15px;
+	background-image: url(img/bck_top_news.gif);	
+	float: right;	
+}
+
+/* ヘッダーに関するCSS
+--------------------------------------------------------------------------------*/
+h1{
+	padding: 0px;
+	margin: 0px;
+}
+
+/* ナビゲーションに関するCSS 
+--------------------------------------------------------------------------------*/
+#nav li {
+	float:left;
+	background-color: #FAFAFA;
+	margin-right: 5px;
+	margin-left: 0px;
+	border: 1px solid #000;
+	text-align: center;
+	width: 118px;
+	height:22px;
+}
+
+#nav a{
+	color: #000;
+	display:block;
+	width: 118px;
+	height:22px;
+}
+
+#nav a:hover {
+	color: #FFF;
+	background-color: #666;
+	text-decoration:none;
+}
+
+/* contentに関するCSS 
+--------------------------------------------------------------------------------*/
+img.topkey {
+	margin-bottom: 15px;
+}
+
+/* col1に関するCSS 
+--------------------------------------------------------------------------------*/
+h2 {
+	margin: 0px;
+}
+
+p {
+	margin-top: 0px;
+}
+
+.mail{
+	margin-top: 10px;
+ clear: both
+}
+
+table {
+	width: 100%;
+	border: 0px;
+	}
+
+td {
+	padding: 2px;
+}
+
+th {
+	padding: 2px;
+	vertical-align: top;
+	text-align: left;
+}
+
+/* sidebarに関するCSS 
+--------------------------------------------------------------------------------*/
+h4 {
+	font-size: 100%;
+	margin-bottom: 3px;
+}
+
+#sidebar p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* フッターに関するCSS
+--------------------------------------------------------------------------------*/
+#credit {
+ clear:both;
+	margin-top: 5px;
+}
+
+
+/* リンクに関するCSS
+--------------------------------------------------------------------------------*/
+
+a:link {text-decoration:none}
+
+a:visited {text-decoration:none}
+
+a:hover {text-decoration:underline}

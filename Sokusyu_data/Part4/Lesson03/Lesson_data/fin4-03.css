@@ -1,0 +1,113 @@
+﻿@charset "UTF-8";
+/* bodyに関するCSS
+--------------------------------------------------------------------------------*/
+body {
+	font-size: 80%;
+	line-height: 160%;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ページ構造に関するCSS 
+--------------------------------------------------------------------------------*/
+#wrapper {
+  width: 830px;
+  margin: 10px 10px 0px;
+}
+#header {
+  border-top: solid 1px #CCCCCC;
+  border-bottom: solid 1px #CCCCCC;
+  height: 170px;
+}
+#content {
+  width: 630px;
+  margin: 15px 0px;
+  padding-right:10px;
+  height: 240px;
+  float: right;
+  overflow: scroll;
+}
+#nav{
+  width: 180px;
+  margin-top: 15px;
+  float: left;
+}
+#footer{
+  border-top: solid 1px #CCCCCC;
+  border-bottom: solid 1px #CCCCCC;
+  margin-bottom: 15px;
+  clear: both;
+}
+#footer p {
+  margin: 0px;
+}
+
+/* ヘッダーに関するCSS 
+--------------------------------------------------------------------------------*/
+#img1 {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+#img2 {
+  position: absolute;
+  top: 20px;
+  left: 430px;
+  z-index: 2;
+}
+#img3 {
+  position: absolute;
+  top: 20px;
+  left: 430px;
+  z-index: 1;
+}
+
+/* コンテンツに関するCSS 
+--------------------------------------------------------------------------------*/
+h1{
+	margin: 0px;
+	padding: 0px;
+	font-size: 160%;
+	line-height: 1.4;
+}
+h2 {
+	font-size: 120%;
+}
+#content .illust {
+	float: right;
+	margin-left: 15px;
+}
+
+/* ナビゲーションに関するCSS 
+--------------------------------------------------------------------------------*/
+#nav h2 {
+	width: 180px;
+	height: 17px;
+	margin: 0px;
+	padding: 0px;
+}
+#nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#nav li {
+	padding: 6px 0;
+	background: url(img/dot_line.gif) no-repeat left bottom;
+}
+#nav a {
+	text-decoration: none;
+}
+
+/* リンクに関するCSS  
+--------------------------------------------------------------------------------*/
+a:link {
+	color: #00F;
+}
+a:visited {
+	color: #936;
+}
+a:hover, a:active {
+	color:#936;
+	text-decoration:none;
+}

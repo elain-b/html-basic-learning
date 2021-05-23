@@ -1,0 +1,16 @@
+﻿@charset "UTF-8";
+table {
+	width: 650px;
+	border: solid 5px #CCC;
+}
+td {
+	font-size: 90%;
+	border: solid 1px #CCC;
+	padding: 5px;
+}
+th {
+	font-size: 90%;
+	border: solid 1px #CCC;
+	white-space: nowrap;
+	background-color: #E2E6E7;
+}

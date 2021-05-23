@@ -1,0 +1,24 @@
+﻿@charset "UTF-8";
+ /* ボディに関するCSS */
+	body {
+	font-family: "ＭＳ Ｐゴシック", "Osaka";
+	color: #333;
+	width: 550px;
+	background-color: #663300;
+}
+
+/* テキストに関するCSS */
+
+p {
+	line-height: 150%;
+	background-color: #F2F1EA;
+	padding: 20px;
+	margin-top: 5px;
+}
+
+
+/* 画像に関するCSS */
+
+img {
+	margin-bottom: 5px;
+}

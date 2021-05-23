@@ -1,0 +1,5 @@
+@charset "UTF-8";
+table{ width: 650px; border: solid 5px #ccc; }
+td{ font-size: 90% border: solid 1px #ccc; padding: 5px; }
+th{ font-size: 90% borser: solid 1px #ccc; white-space: nowrap; background-color: #E2E6E7; }
+caption{ caption-side: bottom; text-align: right; }

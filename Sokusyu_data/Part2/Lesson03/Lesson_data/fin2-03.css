@@ -1,0 +1,23 @@
+﻿@charset "UTF-8";
+h1 {
+	font-size: 30px;
+	color: #666699;
+	font-family: "ヒラギノ明朝 Pro W3", "ＭＳ Ｐ明朝", serif;
+}
+h2 {
+	font-size: 100%;
+	color: #993366;
+	font-family: Osaka, メイリオ, sans-serif;
+}
+blockquote {
+	font-weight: bold;
+	font-style: italic;
+	font-family: "ＭＳ Ｐゴシック", sans-serif;
+	text-align: center;
+	width: 450px;
+
+}
+p {
+  line-height: 160%;
+  text-indent: 20px;
+}

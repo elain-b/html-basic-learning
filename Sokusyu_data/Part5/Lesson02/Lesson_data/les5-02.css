@@ -1,0 +1,96 @@
+﻿@charset "UTF-8";
+/* bodyに関するCSS  
+--------------------------------------------------------------------------------*/
+body {
+	font-size: 13px;
+	line-height: 180%;
+	background-image:  url(img/bck.gif);
+	margin: 0px;
+	padding: 0px;
+}
+
+a img {
+	border: none;
+}
+
+h1, h2, h3 {
+	margin:0px;
+	font-size:100%;
+}
+
+/* ページ構造に関するCSS  
+--------------------------------------------------------------------------------*/
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width:718px;
+	height: 100%;
+	background-color: #FFF;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+#content {
+	width: 500px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom:30px;
+}
+
+#footer{
+	padding: 0px 0px 15px;
+	clear: left;
+}
+
+
+/* ヘッダーに関するCSS  
+--------------------------------------------------------------------------------*/
+#logo {
+	margin-top: 18px;
+	margin-bottom: 10px;
+	margin-left: 18px;
+	float:left;
+}
+
+#cut {
+	margin-top: 5px;
+	border-top: 5px solid #660000;
+	border-bottom: 1px solid #CC6600;
+	clear:both;
+}
+
+/* ナビゲーションに関するCSS 
+--------------------------------------------------------------------------------*/
+#nav {
+	width:376px;
+	height: 27px;
+	background-image: url(img/dot_line_long.gif);
+	margin: 15px 0px 0px 0px;
+	padding: 0px;
+	list-style:none;
+	float:right;
+}
+
+#nav li {
+	margin-top: 6px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	float:left;
+}
+
+/* コンテンツに関するCSS  
+--------------------------------------------------------------------------------*/
+
+
+/* フッターに関するCSS 
+--------------------------------------------------------------------------------*/
+
+#credit {
+	border-top: 1px solid #600;
+	margin-right: auto;
+	margin-left: auto;
+	width: 680px;
+	text-align: center;
+}
